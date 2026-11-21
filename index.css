@@ -1,0 +1,38 @@
+.heading {
+  /* color: blue; */
+  font-style: oblique;
+}
+.box {
+  height: 300px;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.inner-box1,
+.inner-box2,
+.inner-box3 {
+  height: 150px;
+  width: 150px;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.mini-box1,
+.mini-box2,
+.mini-box3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.lorem-text {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
